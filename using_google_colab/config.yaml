@@ -1,0 +1,8 @@
+
+path: /content/drive/My Drive/Object_detection/data  # dataset root dir
+train: /content/drive/My Drive/Object_detection/data/train/images  # train images (relative to 'path')
+val: /content/drive/My Drive/Object_detection/data/validation/images   # val images (relative to 'path')
+
+# Classes
+names:
+  0: alpaca
