@@ -1,5 +1,5 @@
 
-path: /Users/91760/Football_analysis/Computer_Vision_learnings/Object Detection/prepare_data/data  # dataset root dir
+path: absolute/path/to/your/data  # dataset root dir
 train: train/images  # train images (relative to 'path')
 val: validation/images  # val images (relative to 'path')
 
