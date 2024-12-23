@@ -2,9 +2,9 @@ import os
 import shutil
 
 
-DATA_ALL_DIR = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\data_all'
+DATA_ALL_DIR = r'path\to\your\folder\data_all'
 
-DATA_OUT_DIR = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\data'
+DATA_OUT_DIR = r'path\to\your\folder\data'
 
 for set_ in ['train', 'validation', 'test']:
     for dir_ in [os.path.join(DATA_OUT_DIR, set_),
@@ -16,9 +16,9 @@ for set_ in ['train', 'validation', 'test']:
 
 alpaca_id = '/m/0pcr'
 
-train_bboxes_filename = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\oidv6-train-annotations-bbox.csv'
-validation_bboxes_filename = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\validation-annotations-bbox.csv'
-test_bboxes_filename = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\test-annotations-bbox.csv'
+train_bboxes_filename = r'path\to\oidv6-train-annotations-bbox.csv'
+validation_bboxes_filename = r'path\to\validation-annotations-bbox.csv'
+test_bboxes_filename = r'path\to\test-annotations-bbox.csv'
 
 
 for j, filename in enumerate([train_bboxes_filename, validation_bboxes_filename, test_bboxes_filename]):
