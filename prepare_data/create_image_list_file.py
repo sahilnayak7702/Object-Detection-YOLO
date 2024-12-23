@@ -3,9 +3,9 @@ import os
 
 alpaca_id = '/m/0pcr'
 
-train_bboxes_filename = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\oidv6-train-annotations-bbox.csv'
-validation_bboxes_filename = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\validation-annotations-bbox.csv'
-test_bboxes_filename = r'C:\Users\91760\Football_analysis\Computer_Vision_learnings\Object Detection\prepare_data\test-annotations-bbox.csv'
+train_bboxes_filename = r'path\to\oidv6-train-annotations-bbox.csv'
+validation_bboxes_filename = r'path\to\validation-annotations-bbox.csv'
+test_bboxes_filename = r'path\to\test-annotations-bbox.csv'
 
 image_list_file_path = os.path.join('.', 'image_list_file')
 
