@@ -1,7 +1,7 @@
 
-path: /content/drive/My Drive/Object_detection/data  # dataset root dir
-train: /content/drive/My Drive/Object_detection/data/train/images  # train images (relative to 'path')
-val: /content/drive/My Drive/Object_detection/data/validation/images   # val images (relative to 'path')
+path: /path/to/data  # dataset root dir
+train: /path/to/train/images  # train images (relative to 'path')
+val: /path/to/validation/images   # val images (relative to 'path')
 
 # Classes
 names:
