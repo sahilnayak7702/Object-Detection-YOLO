@@ -55,16 +55,6 @@ Detecting and localizing objects in images using bounding boxes. The goal is to 
 
 ---
 
-## Visuals
-
-### IoU Illustration:
-![IoU Illustration](<INSERT_LINK_OR_PATH_TO_IMAGE>)
-
-### Confusion Matrix Example:
-![Confusion Matrix](<INSERT_LINK_OR_PATH_TO_IMAGE>)
-
----
-
 ## How to Use This Repository
 
 ### Prerequisites
@@ -125,29 +115,5 @@ After training and evaluation, results will be saved in the `results/` directory
 
 ---
 
-## Contributing
-We welcome contributions! To contribute:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-branch-name
-   ```
-3. Commit your changes and push them.
-4. Open a pull request.
-
----
-
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
----
-
-## Acknowledgements
-Special thanks to:
-- OpenAI for language models.
-- Contributors to TensorFlow, PyTorch, and other open-source communities.
-
----
-
-Let me know if you'd like to refine this further or include specific images or examples.# Object-Detection-YOLO
-This a Object detection Model using Yolo
