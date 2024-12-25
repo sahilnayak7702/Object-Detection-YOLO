@@ -32,7 +32,7 @@ Detecting and localizing objects in images using bounding boxes. The goal is to 
    - Measures the overlap between the predicted bounding box and the ground truth.
    - Formula:  
      \[
-     IoU = \frac{\text{Area of Overlap}}{\text{Area of Union}}
+     IoU = $`\frac{\text{Area of Overlap}}{\text{Area of Union}}`$
      \]
    - Thresholding IoU (e.g., IoU > 0.5) determines if a prediction is a true positive.
 
