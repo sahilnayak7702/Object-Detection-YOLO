@@ -6,7 +6,7 @@ This repository is a comprehensive solution for object detection and analysis, u
 ---
 
 ## Features
-- **Object Detection Algorithms**: Implementing modern models such as YOLO, SSD, and Faster R-CNN.
+- **Object Detection Algorithms**: Implementing modern models such as YOLO and CNN.
 - **Evaluation Metrics**: Built-in support for metrics like mAP (Mean Average Precision) and IoU (Intersection over Union).
 - **Visualization Tools**: Generate clear visualizations of predictions, ground truths, and confusion matrices.
 - **Flexible Framework**: Easy-to-customize scripts to adapt to new datasets or models.
@@ -18,10 +18,9 @@ This repository is a comprehensive solution for object detection and analysis, u
 
 ### Tools and Libraries
 - **Python**: Core language for the project.
-- **TensorFlow / PyTorch**: Frameworks for deep learning and object detection model implementation.
+- **YOLO**: YOLO (You Only Look Once) is a popular and efficient deep learning algorithm for real-time object detection.
 - **OpenCV**: For image processing and visualization.
 - **Matplotlib/Seaborn**: To plot performance metrics and analysis charts.
-- **Docusaurus**: For API documentation.
 
 ### Key Concepts
 #### Object Detection
