@@ -1,7 +1,5 @@
 # Project Title: **Object Detection and Analysis Framework**
 
----
-
 ## Overview
 This repository is a comprehensive solution for object detection and analysis, utilizing advanced machine learning algorithms and metrics to evaluate model performance. It integrates state-of-the-art tools and concepts to provide developers and researchers with an intuitive and flexible platform for object detection tasks.
 
